@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cat.black.californiaclassics.MainActivity"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/californiatopp6"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/zero"
+        android:scaleType="centerCrop"
+        android:layout_weight="5"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight="2">
+
+        <ImageView
+            android:src="@drawable/midbar4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:text="@string/intro"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/p4"
+            android:paddingBottom="@dimen/p4"
+            android:paddingLeft="@dimen/p16"
+            android:paddingRight="@dimen/p16"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/txtmain"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:paddingTop="@dimen/p4"
+        android:paddingBottom="@dimen/p12"
+        android:orientation="vertical"
+        android:background="#ffca28">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/p4"
+            android:paddingBottom="@dimen/p4"
+            android:paddingLeft="@dimen/p16"
+            android:paddingRight="@dimen/p16"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/icoaddr2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:text="@string/adres"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/p8"
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="@dimen/txtbullet"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/p4"
+            android:paddingBottom="@dimen/p4"
+            android:paddingLeft="@dimen/p16"
+            android:paddingRight="@dimen/p16"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/icoweb2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:text="@string/web"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/p8"
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="@dimen/txtbullet"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/p4"
+            android:paddingBottom="@dimen/p4"
+            android:paddingLeft="@dimen/p16"
+            android:paddingRight="@dimen/p16"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/icocall2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:text="@string/phone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/p8"
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="@dimen/txtbullet"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/zero"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/p4"
+            android:paddingBottom="@dimen/p4"
+            android:paddingLeft="@dimen/p16"
+            android:paddingRight="@dimen/p16"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:src="@drawable/icohour2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:text="@string/hours"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/p8"
+                android:background="#000000"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="@dimen/txtbullet"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

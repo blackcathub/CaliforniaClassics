@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="p4">4dp</dimen>
+    <dimen name="p8">8dp</dimen>
+    <dimen name="p10">10dp</dimen>
+    <dimen name="p12">12dp</dimen>
+    <dimen name="p16">16dp</dimen>
+    <dimen name="txtmain">14sp</dimen>
+    <dimen name="txtbullet">14sp</dimen>
+    <dimen name="txtbulletmini">12sp</dimen>
+</resources>

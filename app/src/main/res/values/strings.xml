@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">California Classics</string>
+    <string name="intro">California Classics GARAGE is where car specialists and classic car passionates come together. Own a classic or you want to have one but dont know where to start? We are here just for you. We can fix anything and bring your classic to back to life. Come and give us a try!</string>
+    <string name="adres">5000 San Raphael, Palm Springs, CA 92264</string>
+    <string name="phone">+1 777 666 5555</string>
+    <string name="web">www.GARAGECALIFORNIA.com</string>
+    <string name="hours">Monday to Saturday 8.00am - 6.00pm</string>
+</resources>
