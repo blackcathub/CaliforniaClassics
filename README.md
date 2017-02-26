@@ -7,4 +7,4 @@ The card adjust its content to distribute it properly on various sizes of screen
 
 Here you can see how the end effect looks like:
 
-<img src="https://cloud.githubusercontent.com/assets/25821037/23335834/f91bb480-fbbd-11e6-86b7-f06d7134f81b.jpg" align="center" height="400" > <img src="https://cloud.githubusercontent.com/assets/25821037/23335835/f91e107c-fbbd-11e6-981c-ebf57a79e46a.jpg" align="center" width="400" >
+<img src="https://cloud.githubusercontent.com/assets/25821037/23335834/f91bb480-fbbd-11e6-86b7-f06d7134f81b.jpg" align="center" height="420" > <img src="https://cloud.githubusercontent.com/assets/25821037/23335835/f91e107c-fbbd-11e6-981c-ebf57a79e46a.jpg" align="center" width="420" >
